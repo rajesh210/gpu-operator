@@ -90,7 +90,7 @@ spec:
             mountPath: /dev/log
           - name: host-os-release
             mountPath: "/host-etc/os-release"
-            readOnly: 
+            readOnly: true
           - name: sys
             mountPath: /sys
           - name: run-mellanox-drivers
