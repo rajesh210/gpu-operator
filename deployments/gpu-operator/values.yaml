@@ -138,7 +138,7 @@ toolkit:
   resources: {}
 
 devicePlugin:
-  repository: nvcr.io/nvidia
+  repository: quay.io/dllehr
   image: k8s-device-plugin
   version: v0.9.0-ubi8
   imagePullPolicy: Always
